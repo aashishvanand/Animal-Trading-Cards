@@ -1,0 +1,45 @@
+/* add your CSS here */
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  padding: 0 10px 10px;
+  width: 300px;
+  border: 1px #d0cdcd solid;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+h3 {
+  font-size: 18px;
+}
+
+img {
+  margin: 0 0 10px 0;
+}
+
+.description_animal {
+  width: 268px;
+  padding: 0 15px 10px;
+  border: 1px #d0cdcd solid;
+}
+
+.interesting-fact_animal {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li span {
+  font-weight: bold;
+}
